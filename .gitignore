@@ -1,0 +1,23 @@
+# Environment variables
+.env
+
+# Data folders (too large)
+data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Conda/pip
+*.egg
+
+# OS
+.DS_Store
+Thumbs.db
+
