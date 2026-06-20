@@ -10,7 +10,8 @@ st.set_page_config(
     layout="wide"
 )
 
-API_URL = "http://localhost:8000"
+import os
+API_URL = os.environ.get("API_URL", "http://localhost:8000")
 
 # ── Header ────────────────────────────────────────────────
 st.title("🌿 Crop Disease Diagnosis System")
